@@ -137,3 +137,4 @@ if __name__ == '__main__':
         _self_test()
     else:
         main()
+print("Calculadora segura finalizada.")
