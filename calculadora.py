@@ -114,7 +114,7 @@ def _self_test():
         '9 / 3': 3.0,
         'sqrt(16)': 4.0,
     }
-    print('Ejecutando pruebas automáticas...')
+    print('Ejecutando pruebas automáticas..')
     for expr, expected in tests.items():
         try:
             out = safe_eval(expr)
@@ -138,3 +138,4 @@ if __name__ == '__main__':
     else:
         main()
 print("esta es una prueba de git")
+print("esta es una prueba de git 2")
