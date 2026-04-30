@@ -115,6 +115,7 @@ def _self_test():
         'sqrt(16)': 4.0,
     }
     print('Ejecutando prueb automáticas')
+    print("conflictivo ese print")
     for expr, expected in tests.items():
         try:
             out = safe_eval(expr)
