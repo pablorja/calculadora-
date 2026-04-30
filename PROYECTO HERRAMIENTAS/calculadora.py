@@ -114,7 +114,7 @@ def _self_test():
         '9 / 3': 3.0,
         'sqrt(16)': 4.0,
     }
-    print('Ejecutando pruebas automáticas')
+    print('Ejecutando prueb automáticas')
     for expr, expected in tests.items():
         try:
             out = safe_eval(expr)
